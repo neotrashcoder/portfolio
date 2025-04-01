@@ -1,0 +1,52 @@
+body{
+  max-width: 100%;
+  text-align: center;
+  color: ghostwhite;
+  font-size: 35px;
+  font-family: cursive;
+  padding: 5px;
+}
+header{
+  display: flex;
+}
+main{
+  display: block;
+}
+ul{
+  list-style-type: none;
+}
+#title, #shortcut{
+  width: 50%;
+}
+#title{
+  display: flex;
+  justify-content: start;
+  padding-left: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#shortcut{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: 30px;
+} 
+/* end of header's style */
+#about{
+  text-align: justify;
+  background-color: rgb(0, 0, 0, .5);
+  padding: 40px;
+  height: 90%;
+}
+#jack{
+  display: flex;
+  justify-content: space-around;
+}
+#hobbies{
+  background-color: rgb(255, 255, 0, .2);
+  width: 50%;
+  list-style: none inside;
+}
+#social{
+  background-color: rgb(70, 0, 0, .5);
+  width: 50%;
+}
